@@ -6,7 +6,8 @@ from selenium.webdriver.chrome.service import Service
 
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
-chrome_service = Service("D:\python\chromedriver-win64\chromedriver.exe")
+
+chrome_service = Service(r"D:\DNC\thuctapthaykhoi\chromedriver-win64\chromedriver.exe")
 
 def connect_to_browser(id_str, pass_str):
     if id_str != "" and pass_str != "":
