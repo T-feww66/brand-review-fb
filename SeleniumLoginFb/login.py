@@ -40,4 +40,4 @@ def connect_to_browser(id_str, pass_str):
         print("email hoặc mật khẩu rổng (null)")
 
 
-connect_to_browser("tthai9123456@gmail.com", "0123456789099")
+connect_to_browser("email@gmail.com", "password")
